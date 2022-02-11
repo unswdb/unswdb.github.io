@@ -1,0 +1,68 @@
+//@import url("https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700,800");
+@import url("https://fonts.googleapis.com/css?family=Rubik:300,400,500,600,700,800");
+$primary: #2B65EB;
+
+
+// Import Bootstrap
+@import "bootstrap/scss/bootstrap.scss";
+
+// Resets for body and html height for sticky footer
+body,
+html {
+    height: 100%;
+    font-family: "Rubik", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+// Custom SCSS for feature component with Bootstrap icon
+.feature {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 4rem;
+    width: 4rem;
+    font-size: 1.8rem;
+}
+
+// Background image for featured blog post
+.bg-featured-blog {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 15rem;
+}
+//h1{
+//    font-family: "Rubik", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+//}
+h2{
+    font-weight: bolder;
+}
+.nav-link{
+    font-weight: 500;
+}
+.navbar-toggler{
+    border-radius: 0.05rem;
+    font-size: 1rem;
+    padding: 0.2rem 0.6rem;
+}
+
+.mt-n1 {
+    margin-top: -0.25rem !important;
+}
+
+.mt-n2 {
+    margin-top: -0.5rem !important;
+}
+
+.mt-n3 {
+    margin-top: -1rem !important;
+}
+
+.mt-n4 {
+    margin-top: -1.5rem !important;
+}
+
+.mt-n5 {
+    margin-top: -3rem !important;
+}

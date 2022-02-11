@@ -1,8 +1,8 @@
 @charset "UTF-8";
 /*!
-* Start Bootstrap - Modern Business v5.0.5 (https://startbootstrap.com/template-overviews/modern-business)
-* Copyright 2013-2022 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-modern-business/blob/master/LICENSE)
+* Start Bootstrap - DKR v5.0.5 (https://unsw-database.github.io/)
+* Copyright 2013-2022 
+* Licensed under MIT (https://github.com/StartBootstrap/DKR/blob/master/LICENSE)
 */
 @import url("https://fonts.googleapis.com/css?family=Rubik:300,400,500,600,700,800");
 /*!
@@ -11297,8 +11297,8 @@ html {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  height: 3.8rem;
-  width: 3.8rem;
+  height: 4rem;
+  width: 4rem;
   font-size: 1.8rem;
 }
 
